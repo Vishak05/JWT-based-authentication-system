@@ -11,10 +11,6 @@ This is a **JWT-based authentication system** built with **Node.js** and **Expre
 - **Error Handling**: Centralized error handling with proper HTTP status codes.
 - **Cookies**: Secure handling of JWT tokens with **httpOnly** cookies.
 
-## Project Structure
-
-|-- config/ | |-- db.js # MongoDB connection setup | |-- controllers/ | |-- authController.js # Auth logic (signup, login, forgot/reset password) | |-- middleware/ | |-- authMiddleware.js # JWT verification middleware | |-- errorMiddleware.js # Global error handler | |-- models/ | |-- User.js # User model schema (Mongoose) | |-- routes/ | |-- authRoutes.js # Authentication routes (signup, login, etc.) | |-- utils/ | |-- sendEmail.js # Nodemailer setup for email handling | |-- app.js # Main application entry point |-- package.json # Dependencies and scripts |-- README.md # Documentation |-- .env # Environment variables (not shared in repo)
-
 
 ## Installation
 
