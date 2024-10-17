@@ -1,0 +1,27 @@
+{
+    "info": {
+        "name": "JWT Auth API Tests",
+        "description": "Test suite for JWT Authentication API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Signup User",
+            "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": {
+                    "raw": "{{url}}/api/auth/signup",
+                    "host": ["{{url}}"],
+                    "path": ["api", "auth", "signup"]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{ \"name\": \"Test User\", \"email\": \"test@example.com\", \"password\": \"password123\" }"
+                }
+            },
+            "response": []
+        }
+    ]
+ }
+ 
